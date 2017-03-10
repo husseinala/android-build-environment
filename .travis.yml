@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - docker build --quiet=true -t flimo/android .
+  - docker build -t flimo/android .
